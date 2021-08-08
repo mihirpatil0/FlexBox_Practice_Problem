@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>Align items center</title>
+    <style>
+
+        .headerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background-color: red;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .cards img {
+            margin: 10px;
+            border: 3px solid #000;
+            box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+            max-width: 25vw;
+        }
+    </style>
+</head>
+<body>
+    <header class="headerContainer">Flexbox Photo Gallery Example</header>
+    <main class="cards">
+        <img src="../assets/firstImage.jpg" alt="Sample photo">
+        <img src="../assets/secondImage.jpg" alt="Sample photo">
+        <img src="../assets/thirdImage.jpg" alt="Sample photo">
+        <img src="../assets/fourthImage.jpg" alt="Sample photo">
+        <img src="../assets/fifthImage.jpg" alt="Sample photo">
+        <img src="../assets/sixthImage.jpg" alt="Sample photo">
+    </main>
+</body>
+</html>
